@@ -5,7 +5,9 @@ Greasemonkey script that embeds a soundcloud link in the description section of 
   When you load the page for the video, the soundcloud track should be embedded in the description section of the video. Pausing and un-pausing the video will pause and un-pause the soundcloud audio, and changing your playback position on the video will update the soundcloud playback to the same timestamp. If the video and audio become desynced, just pause and un-pause the video to synchronize the tracks. If the video starts playing while the soundcloud audio is still paused, just click play on the soundcloud track and then pause and unpause the video to resync the tracks.
 
  Some known bugs:
+ 
  -occasionally, the soundcloud player does not load. Refreshing the page should fix this.
+ 
  -sometimes, following a link to another youtube page causes the video player to to persist on top of the new page. Refreshing the page should fix this.
 
 This is still in its early phases, so there are likely more bugs I haven't found yet. Most bugs seem to be fixed by refreshing the page. If you encounter any issues that refreshing does not fix, you can disable the script in the greasemonkey menu.
